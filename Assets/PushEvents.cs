@@ -12,7 +12,7 @@ public class PushEvents : MonoBehaviour
     private bool right = false;
     public void Push(object info)
     {
-        Debug.Log("Pushed " + right + (Vector3)info);
+        //Debug.Log("Pushed " + right + (Vector3)info);
         Vector3 delta = (Vector3)info;
         thetaX -= delta.x * speed;
         thetaZ += delta.y * speed;
